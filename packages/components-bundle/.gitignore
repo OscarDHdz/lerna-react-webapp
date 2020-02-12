@@ -1,0 +1,17 @@
+node_modules
+
+# Bundle
+dist/**
+
+# next.js
+/.next/
+/out/
+
+# misc
+.DS_Store
+.env*
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
