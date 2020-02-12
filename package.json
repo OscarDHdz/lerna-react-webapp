@@ -7,7 +7,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "lerna run next:dev --stream"
+    "start": "lerna run next:dev --stream",
+    "bundle-all": "lerna run bundle --stream",
+    "install": "lerna bootstrap --hoist"
   },
   "keywords": [],
   "author": "",
