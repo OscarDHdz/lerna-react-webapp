@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lerna run next:dev --stream"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
