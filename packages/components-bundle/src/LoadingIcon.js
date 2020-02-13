@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LoadingIcon = () => {
+export const LoadingIcon = () => {
 	return (
 		<svg width="38" height="38" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
 			<g fill="none" fill-rule="evenodd">

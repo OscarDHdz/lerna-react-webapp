@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AwesomeButton = (props) => {
+export const AwesomeButton = (props) => {
 
   const btnStyles = {
     backgroundColor: props.backgroundColor || 'orange',
