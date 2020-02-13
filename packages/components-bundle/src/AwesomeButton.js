@@ -4,11 +4,10 @@ export const AwesomeButton = (props) => {
 
   const btnStyles = {
     backgroundColor: props.backgroundColor || 'orange',
-    width: props.backgroundColor || '7em',
-    height: props.backgroundColor || '3em',
+    padding: props.padding || '0.5em 1em',
     border: 'none',
     color: 'white',
-    fontSize: props.fontSize || '1.5em'
+    fontSize: props.fontSize || '1em'
   }
 
   const value = props.value || 'Click Me!';
