@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "next dev",
-    "bundle": "rollup -c rollup.config.js"
+    "bundle": "rollup -c rollup.config.js",
+    "fix-react-modules": "npm link ../../node_modules/react && npm link ../../node_modules/react-dom"
   },
   "keywords": [],
   "author": "",

@@ -9,7 +9,8 @@
   "scripts": {
     "start": "lerna run next:dev --stream",
     "bundle:all": "lerna run bundle --stream",
-    "install:all": "lerna bootstrap --hoist"
+    "install:all": "lerna bootstrap --hoist",
+    "fix-react-modules": "lerna run fix-react-modules --stream"
   },
   "keywords": [],
   "author": "",
