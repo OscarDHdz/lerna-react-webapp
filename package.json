@@ -8,8 +8,8 @@
   "main": "index.js",
   "scripts": {
     "start": "lerna run next:dev --stream",
-    "bundle-all": "lerna run bundle --stream",
-    "install": "lerna bootstrap --hoist"
+    "bundle:all": "lerna run bundle --stream",
+    "install:all": "lerna bootstrap --hoist"
   },
   "keywords": [],
   "author": "",
