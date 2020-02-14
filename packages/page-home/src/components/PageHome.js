@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import Logo from './Logo';
+import { LoadingIcon, AwesomeButton } from 'components-bundle';
 
 function App() {
   return (
@@ -10,14 +11,12 @@ function App() {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <p>
+            The next elements are components from the <code>components-bundle</code>: 
+          </p>
+          <div>
+            A spinner: <LoadingIcon/> An awesome button: <AwesomeButton/>
+          </div>
         </header>
       </div>
       <style>{`
