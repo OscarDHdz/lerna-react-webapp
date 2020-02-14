@@ -1,12 +1,11 @@
-import React, {Fragment} from 'react';
-import Nav from '../components/nav';
+import React from 'react';
+import Layout from '../components/Layout';
 import PageHome from 'page-home';
 
 const Home = () => (
-  <Fragment>
-    <Nav />
+  <Layout>
     <PageHome/>
-  </Fragment>
+  </Layout>
 )
 
 export default Home
