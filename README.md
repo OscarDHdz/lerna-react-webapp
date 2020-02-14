@@ -1,6 +1,9 @@
 # Lerna react mono repo _(One repo to rule them all)_
 React next.js app  built with different sub projects using lerna monorepo
 
+![preview](./preview.gif)
+
+
 This is what you see:
 ```
 master-app (next.js app)
